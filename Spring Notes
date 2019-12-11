@@ -1,0 +1,17 @@
+Goals of spring :
+    Lightweight development with java POJO
+    Dependency Injection to promote loose coupling
+    Declarative Programming with AOP
+    minimize boilerplate java code
+    
+    
+AOP(Aspect oriented Programming) :
+    Add functionality to objects declaratively.
+    Logging, security,transactions etc.
+   
+ORM (Object Relational Mapping) :
+    Integration with Hibernate and JPA
+    
+    
+ Inversion of Control :
+  
