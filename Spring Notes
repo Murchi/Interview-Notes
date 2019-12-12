@@ -13,5 +13,29 @@ ORM (Object Relational Mapping) :
     Integration with Hibernate and JPA
     
     
- Inversion of Control :
+ Primary Functions of spring container :
+ Inversion of Control : create and manage object
+ Inject object's dependencies (Dependency injection)
+ 
+ Ways to configure Spring container :
+ 
+ XML configuration
+ Annotations
+ Java source code.
+ 
+ Spring Development Process :
+ 
+ 1. Configure Spring beans
+ 2. Create the spring container
+ 3.Retrieve beans from spring container
+ 
+ ApplicationContext = spring container
+ Spring bean = java object created by  Spring container
+ 
+ Dependency injection : Constructor injection
+ Setter injection : Injects dependency by calling setter methods in the class
+ in setter injection when configuring the dependency in xml, tag property should contain the name of the setter method without "set" word 
+ and converting the fisrt letter after "set" word to lowercase
+ eg : setter method = "setDataprocessed" property name = "dataprocessed"
+ 
   
