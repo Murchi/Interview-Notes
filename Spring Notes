@@ -46,3 +46,19 @@ ORM (Object Relational Mapping) :
         setter method  : setEmailAddress()
    Injecting values from Property File :
         instead of hardcoading the values in xml , we can add the same in property file and retrieve the same in xml file
+        
+        
+    Bean Scopes : 
+        1. singleton (default)
+        2.prototype
+        3.
+        
+     Bean LifeCycles :
+        1. Container started
+        2. Bean Instantiated
+        3. Dependencies Injected
+        4. Internal Spring Processing
+        5. Your custom Init method
+        6. Bean is ready for use
+        7. Container is shutdown
+        8. Your custom destroy method
