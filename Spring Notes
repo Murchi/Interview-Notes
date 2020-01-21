@@ -62,3 +62,27 @@ ORM (Object Relational Mapping) :
         6. Bean is ready for use
         7. Container is shutdown
         8. Your custom destroy method
+        
+        
+        Configure Spring with Java Annotations :
+            Annotations : Special marker / label added to the java class
+                          Provide meta data about the class
+                          Processed at compile time or run time
+                          
+                          
+                         a. @Component
+                         b. @Override
+                         
+                         
+            Spring dependency injection using annotations and autowiring
+            Autowiring : For dependency injection, spring can use autowiring
+                          Spring wil look for a class, that matches the property :
+                                :matches by type : class or interface
+                           Spring will inject it automatically , hence autowired
+                           Autowiring injection type :
+                            Constructor injection
+                             Setter injection
+                              Field injection
+            Whenever Spring sees @Autowired annotation, it checks for the concerned bean to be injected, and automaically loads the same.
+            If there are multiple beans for the same configuration, @Qualifier is used.
+            
