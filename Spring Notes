@@ -82,7 +82,7 @@ ORM (Object Relational Mapping) :
                            Autowiring injection type :
                             Constructor injection
                              Setter injection
-                              Field injection
+                              Field injection - technology used is "Reflection".
             Whenever Spring sees @Autowired annotation, it checks for the concerned bean to be injected, and automaically loads the same.
             If there are multiple beans for the same configuration, @Qualifier is used.
             
